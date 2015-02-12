@@ -1,4 +1,4 @@
-        Modo de Usar:
+       Modo de Usar:
 
        se for rodar pelo script, dê pythonw.exe boneca.py
 
@@ -6,7 +6,4 @@
 
        Para fechar o programa pressione Windows + F4
 
-
-       Ou baixe o executável em http://www.teenspirit.com.br/downloads/boneca.rar
-
-       Ou baixe o instalador em http://www.teenspirit.com.br/downloads/boneca-1.0.0-amd64.msi
+       Para ver como eu fiz isso, olhe o post no blog: http://fernandofreitasalves.com/como-criar-um-executavel-com-instalador-msi-em-python-e-com-cx_freeze/
