@@ -15,6 +15,11 @@ import sys
 import ctypes
 from ctypes import wintypes
 import win32con
+import esky
+
+if hasattr(sys,"frozen"):
+    app = esky.Esky(sys.executable,"http://teenspirit.com.br/exemplo_boneca/")
+    app.auto_update()
 
 byref = ctypes.byref
 user32 = ctypes.windll.user32
@@ -25,7 +30,7 @@ HOTKEYS = {
 }
 
 def handle_win_f3 ():
-    os.startfile(os.path.join(os.path.realpath(os.path.dirname(sys.argv[0])),"boneca.jpg"))
+    os.startfile(os.path.join(os.path.realpath(os.path.dirname(sys.argv[0])),"chuck.jpg"))
 
 def handle_win_f4 ():
     user32.PostQuitMessage (0)
