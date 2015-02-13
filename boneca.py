@@ -30,7 +30,7 @@ HOTKEYS = {
 }
 
 def handle_win_f3 ():
-    os.startfile(os.path.join(os.path.realpath(os.path.dirname(sys.argv[0])),"boneca.jpg"))
+    os.startfile(os.path.join(os.path.realpath(os.path.dirname(sys.argv[0])),"seu-boneco.jpg"))
 
 def handle_win_f4 ():
     user32.PostQuitMessage (0)

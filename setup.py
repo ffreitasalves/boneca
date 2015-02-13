@@ -2,7 +2,7 @@ import esky.bdist_esky
 from esky.bdist_esky import Executable as Executable_Esky
 from cx_Freeze import setup, Executable
 
-include_files = ['boneca.jpg','chuck.jpg']
+include_files = ['boneca.jpg','chuck.jpg', 'seu-boneco.jpg']
 
 setup(
     name = 'boneca',
