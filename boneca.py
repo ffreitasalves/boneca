@@ -42,10 +42,9 @@ HOTKEY_ACTIONS = {
 
 #
 # Registrando as chaves sem dar o print pra ficar escondido na tela.
-for id, (vk, modifiers) in HOTKEYS.items ():
+for id_key, (vk, modifiers) in HOTKEYS.items ():
     #print "Registering id", id, "for key", vk
-    pass
-    if not user32.RegisterHotKey (None, id, modifiers, vk):
+    if not user32.RegisterHotKey (None, id_key, modifiers, vk):
         #print "Unable to register id", id
         pass
 
