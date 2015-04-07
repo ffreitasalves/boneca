@@ -62,5 +62,5 @@ try:
         user32.DispatchMessageA (byref (msg))
 
 finally:
-    for id in HOTKEYS.keys ():
-        user32.UnregisterHotKey (None, id)
+    for id_key in HOTKEYS.keys ():
+        user32.UnregisterHotKey (None, id_key)
